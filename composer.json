@@ -1,0 +1,9 @@
+{
+  "name": "debug/laravel-ticketing-test",
+  "type": "project",
+  "description": "Laravel debugging test project for ICT staff candidates.",
+  "require": {
+    "php": "^8.2",
+    "laravel/framework": "^11.0"
+  }
+}
