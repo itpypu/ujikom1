@@ -9,7 +9,11 @@ andre@example.com / password
 
 Sistem Pelaporan Gangguan TIK
 
-Project ini telah memiliki fitur dasar, namun masih terdapat beberapa masalah pada logika, validasi, akses data, pencarian/filter, pagination, dan/atau lampiran file.
+Project ini telah memiliki fitur dasar, namun masih terdapat beberapa masalah pada logika, validasi, akses data, pencarian/filter, pagination, dan/atau lampiran file. 
+1. tersedia akun staff dan user
+2. tersedia beberapa sample ticket dari beberapa user
+3. kandidat diharapkan menguji aplikasi dari perspektif role yang berbeda
+4. kandidat diharapkan memeriksa fitur utama seperti form, akses data, filter, pagination, dan lampiran
 
 Tugas Anda adalah:
 
