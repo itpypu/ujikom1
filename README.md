@@ -26,4 +26,33 @@ Kandidat diminta menjalankan project, menemukan bug, menjelaskan penyebab, lalu 
 2. Temukan bug 1–5.
 3. Perbaiki bug.
 4. Buat file `DEBUG_REPORT.md`.
-"# ujikom1" 
+
+
+## Seeder dan sample data
+Project ini sekarang menyertakan seeder agar kandidat bisa langsung login dan menguji bug.
+
+### Migration tambahan
+- `2026_03_27_000000_add_role_to_users_table.php`
+- `2026_03_27_000001_create_tickets_table.php`
+
+### Seeder
+- `UserSeeder`
+- `TicketSeeder`
+- `DatabaseSeeder`
+
+### Akun demo
+Semua akun memakai password: `password`
+
+| Role | Email |
+|---|---|
+| Staff | staff@example.com |
+| Staff | helpdesk@example.com |
+| User | budi@example.com |
+| User | siti@example.com |
+| User | andre@example.com |
+
+### Menjalankan seed
+```bash
+php artisan migrate
+php artisan db:seed
+```
